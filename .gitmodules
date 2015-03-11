@@ -1,0 +1,3 @@
+[submodule "libs/phpunit-wrapper"]
+	path = libs/phpunit-wrapper
+	url = https://github.com/fwolf/phpunit-wrapper.git
