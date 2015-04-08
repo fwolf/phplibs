@@ -4,3 +4,6 @@
 [submodule "libs/phpmailer-wrapper"]
 	path = libs/phpmailer-wrapper
 	url = https://github.com/fwolf/phpmailer-wrapper.git
+[submodule "libs/coding-client"]
+	path = libs/coding-client
+	url = https://github.com/fwolf/coding-client-php.git
