@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a7d15b0e34e05f380ad89e401c08a654",
+    "hash": "487b4b0a61836457e7274c9947af7d0c",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -59,6 +59,52 @@
                 "instantiate"
             ],
             "time": "2014-10-13 12:58:55"
+        },
+        {
+            "name": "fwlib/fwlib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fwolf/fwlib.git",
+                "reference": "e1e32cb96e409adcbe4c7c3d33b6107098c267c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fwolf/fwlib/zipball/e1e32cb96e409adcbe4c7c3d33b6107098c267c4",
+                "reference": "e1e32cb96e409adcbe4c7c3d33b6107098c267c4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "fwolf/phpunit-wrapper": "1.*",
+                "mikey179/vfsstream": "1.*",
+                "php-mock/php-mock": "^0.7",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fwlib\\": "src/Fwlib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Fwolf",
+                    "email": "fwolf.aide+Fwlib@gmail.com"
+                }
+            ],
+            "description": "Common PHP library",
+            "keywords": [
+                "fwlib",
+                "lib"
+            ],
+            "time": "2015-04-07 09:01:32"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -467,16 +513,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "5b578d3865a9128b9c209b011fda6539ec06e7a5"
+                "reference": "d6429b0995b24a2d9dfe5587ee3a7071c1161af4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5b578d3865a9128b9c209b011fda6539ec06e7a5",
-                "reference": "5b578d3865a9128b9c209b011fda6539ec06e7a5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d6429b0995b24a2d9dfe5587ee3a7071c1161af4",
+                "reference": "d6429b0995b24a2d9dfe5587ee3a7071c1161af4",
                 "shasum": ""
             },
             "require": {
@@ -486,8 +532,8 @@
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "php": ">=5.3.3",
-                "phpspec/prophecy": "~1.3.1",
-                "phpunit/php-code-coverage": "~2.0",
+                "phpspec/prophecy": "~1.3,>=1.3.1",
+                "phpunit/php-code-coverage": "~2.0,>=2.0.11",
                 "phpunit/php-file-iterator": "~1.3.2",
                 "phpunit/php-text-template": "~1.2",
                 "phpunit/php-timer": "~1.0.2",
@@ -535,7 +581,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-02-05 15:51:19"
+            "time": "2015-03-29 09:24:05"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1014,7 +1060,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "fwlib/fwlib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

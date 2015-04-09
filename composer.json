@@ -14,17 +14,20 @@
     ],
     "require": {
         "php": ">=5.5",
+        "fwlib/fwlib": "dev-master",
         "phpmailer/phpmailer": "5.*",
         "phpunit/phpunit": "4.*"
     },
     "autoload": {
         "psr-4": {
+            "Fwolf\\Client\\Coding\\": "libs/coding-client/src/CodingClient/",
             "Fwolf\\Wrapper\\PHPMailer\\": "libs/phpmailer-wrapper/src/PHPMailer/",
             "Fwolf\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/src/PHPUnit/"
         }
     },
     "autoload-dev": {
         "psr-4": {
+            "FwolfTest\\Client\\Coding\\": "libs/coding-client/tests/CodingClientTest/",
             "FwolfTest\\Wrapper\\PHPMailer\\": "libs/phpmailer-wrapper/tests/PHPMailer/",
             "FwolfTest\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/tests/PHPUnit/"
         }
