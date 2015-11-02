@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.5",
-        "fwlib/fwlib": "dev-master",
+        "fwlib/fwlib": "2.*",
         "phpmailer/phpmailer": "5.*",
         "phpunit/phpunit": "4.*"
     },
