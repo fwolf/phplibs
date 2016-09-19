@@ -7,3 +7,6 @@
 [submodule "libs/coding-client"]
 	path = libs/coding-client
 	url = https://github.com/fwolf/coding-client-php.git
+[submodule "libs/singleton"]
+	path = libs/singleton
+	url = https://github.com/fwolf/singleton.php
