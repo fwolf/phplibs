@@ -10,3 +10,6 @@
 [submodule "libs/singleton"]
 	path = libs/singleton
 	url = https://github.com/fwolf/singleton.php
+[submodule "libs/uuid"]
+	path = libs/uuid
+	url = https://github.com/fwolf/uuid.php
