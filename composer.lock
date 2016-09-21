@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8639cd37e45ffb8fe33f433510e5267a",
-    "content-hash": "276b28db22e53a4faf98d712f1c3d35d",
+    "hash": "418a31e3e866720492316e8511e0565b",
+    "content-hash": "77a2958e3dad6aee92f21b57de910285",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -63,23 +63,23 @@
         },
         {
             "name": "fwlib/fwlib",
-            "version": "v2.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fwolf/fwlib.git",
-                "reference": "e90d170daec4454f3d621f92eccbd270660186a7"
+                "reference": "f8ae7f7f72ea1f5afbee9c9cd1d9552ef44bce56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fwolf/fwlib/zipball/e90d170daec4454f3d621f92eccbd270660186a7",
-                "reference": "e90d170daec4454f3d621f92eccbd270660186a7",
+                "url": "https://api.github.com/repos/fwolf/fwlib/zipball/f8ae7f7f72ea1f5afbee9c9cd1d9552ef44bce56",
+                "reference": "f8ae7f7f72ea1f5afbee9c9cd1d9552ef44bce56",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "fwolf/phpunit-wrapper": "1.*",
+                "fwolf/phpunit-wrapper": "^1.2",
                 "mikey179/vfsstream": "1.*",
                 "php-mock/php-mock": "^0.7",
                 "phpunit/phpunit": "4.*"
@@ -105,7 +105,7 @@
                 "fwlib",
                 "lib"
             ],
-            "time": "2015-10-28 16:37:26"
+            "time": "2016-07-08 06:29:56"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -1061,7 +1061,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "fwlib/fwlib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
