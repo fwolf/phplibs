@@ -23,7 +23,8 @@
             "Fwolf\\Base\\Singleton\\": "libs/singleton/src/Singleton/",
             "Fwolf\\Client\\Coding\\": "libs/coding-client/src/CodingClient/",
             "Fwolf\\Wrapper\\PHPMailer\\": "libs/phpmailer-wrapper/src/PHPMailer/",
-            "Fwolf\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/src/PHPUnit/"
+            "Fwolf\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/src/PHPUnit/",
+            "Fwolf\\Util\\Uuid\\": "libs/uuid/src/Uuid/"
         }
     },
     "autoload-dev": {
@@ -31,7 +32,8 @@
             "FwolfTest\\Base\\Singleton\\": "libs/singleton/tests/Singleton/",
             "FwolfTest\\Client\\Coding\\": "libs/coding-client/tests/CodingClientTest/",
             "FwolfTest\\Wrapper\\PHPMailer\\": "libs/phpmailer-wrapper/tests/PHPMailer/",
-            "FwolfTest\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/tests/PHPUnit/"
+            "FwolfTest\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/tests/PHPUnit/",
+            "FwolfTest\\Util\\Uuid\\": "libs/uuid/src/Uuid/"
         }
     }
 }
