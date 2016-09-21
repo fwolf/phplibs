@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/libs/phpmailer-wrapper/src/PHPMailer" isTestSource="false" packagePrefix="Fwolf\Wrapper\PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/phpmailer-wrapper/tests/PHPMailer" isTestSource="true" packagePrefix="FwolfTest\Wrapper\PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/phpunit-wrapper/src/PHPUnit" isTestSource="false" packagePrefix="Fwolf\Wrapper\PHPUnit" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/phpunit-wrapper/tests/PHPUnit" isTestSource="true" packagePrefix="FwolfTest\Wrapper\PHPUnit" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

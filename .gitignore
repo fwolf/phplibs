@@ -1,7 +1,8 @@
 
-.idea/
 vendor/
 
+.idea/tasks.xml
+.idea/workspace.xml
 config.php
 coverage-html
 phpunit.xml
