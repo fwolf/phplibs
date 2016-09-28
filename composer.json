@@ -33,7 +33,7 @@
             "FwolfTest\\Client\\Coding\\": "libs/coding-client/tests/CodingClientTest/",
             "FwolfTest\\Wrapper\\PHPMailer\\": "libs/phpmailer-wrapper/tests/PHPMailer/",
             "FwolfTest\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/tests/PHPUnit/",
-            "FwolfTest\\Util\\Uuid\\": "libs/uuid/src/Uuid/"
+            "FwolfTest\\Util\\Uuid\\": "libs/uuid/tests/Uuid/"
         }
     }
 }
