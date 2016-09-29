@@ -13,3 +13,6 @@
 [submodule "libs/uuid"]
 	path = libs/uuid
 	url = https://github.com/fwolf/uuid.php
+[submodule "libs/base-converter"]
+	path = libs/base-converter
+	url = https://github.com/fwolf/base-converter.php.git
