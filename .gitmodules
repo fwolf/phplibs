@@ -16,3 +16,6 @@
 [submodule "libs/base-converter"]
 	path = libs/base-converter
 	url = https://github.com/fwolf/base-converter.php.git
+[submodule "libs/config"]
+	path = libs/config
+	url = https://github.com/fwolf/config.php.git
