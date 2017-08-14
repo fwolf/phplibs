@@ -1,6 +1,7 @@
 
 vendor/
 
+.idea/php-test-framework.xml
 .idea/tasks.xml
 .idea/webServers.xml
 .idea/workspace.xml
