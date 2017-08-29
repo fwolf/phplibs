@@ -2,17 +2,19 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/libs/phpmailer-wrapper/tests/PHPMailer" isTestSource="true" packagePrefix="FwolfTest\Wrapper\PHPMailer\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/singleton/src/Singleton" isTestSource="false" packagePrefix="Fwolf\Base\Singleton\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/phpunit-wrapper/src/PHPUnit" isTestSource="false" packagePrefix="Fwolf\Wrapper\PHPUnit\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/uuid/src/Uuid" isTestSource="false" packagePrefix="Fwolf\Util\Uuid\" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/config/src/Config" isTestSource="false" packagePrefix="Fwolf\Config\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/phpmailer-wrapper/src/PHPMailer" isTestSource="false" packagePrefix="Fwolf\Wrapper\PHPMailer\" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/phpunit-wrapper/tests/PHPUnit" isTestSource="true" packagePrefix="FwolfTest\Wrapper\PHPUnit\" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/coding-client/src/CodingClient" isTestSource="false" packagePrefix="Fwolf\Client\Coding\" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/config/tests/Config" isTestSource="true" packagePrefix="FwolfTest\Config\" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/phpmailer-wrapper/tests/PHPMailer" isTestSource="true" packagePrefix="FwolfTest\Wrapper\PHPMailer\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/base-converter/src/BaseConverter" isTestSource="false" packagePrefix="Fwolf\Util\BaseConverter\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/coding-client/tests/CodingClientTest" isTestSource="true" packagePrefix="FwolfTest\Client\Coding\" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/phpunit-wrapper/tests/PHPUnit" isTestSource="true" packagePrefix="FwolfTest\Wrapper\PHPUnit\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/singleton/tests/Singleton" isTestSource="true" packagePrefix="FwolfTest\Base\Singleton\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/uuid/tests/Uuid" isTestSource="true" packagePrefix="FwolfTest\Util\Uuid\" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/coding-client/src/CodingClient" isTestSource="false" packagePrefix="Fwolf\Client\Coding\" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/vendor" />
     </content>
