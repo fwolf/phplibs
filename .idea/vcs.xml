@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/libs/base-converter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/libs/coding-client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/collection" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/libs/config" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/libs/phpmailer-wrapper" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/libs/phpunit-wrapper" vcs="Git" />

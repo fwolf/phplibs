@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/libs/singleton/src/Singleton" isTestSource="false" packagePrefix="Fwolf\Base\Singleton\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/phpunit-wrapper/src/PHPUnit" isTestSource="false" packagePrefix="Fwolf\Wrapper\PHPUnit\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/uuid/src/Uuid" isTestSource="false" packagePrefix="Fwolf\Util\Uuid\" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/collection/src/Collection" isTestSource="false" packagePrefix="Fwolf\Common\Collection\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/config/src/Config" isTestSource="false" packagePrefix="Fwolf\Config\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/phpmailer-wrapper/src/PHPMailer" isTestSource="false" packagePrefix="Fwolf\Wrapper\PHPMailer\" />
       <sourceFolder url="file://$MODULE_DIR$/libs/phpunit-wrapper/tests/PHPUnit" isTestSource="true" packagePrefix="FwolfTest\Wrapper\PHPUnit\" />
