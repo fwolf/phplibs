@@ -26,6 +26,7 @@
         "psr-4": {
             "Fwolf\\Base\\Singleton\\": "libs/singleton/src/Singleton/",
             "Fwolf\\Client\\Coding\\": "libs/coding-client/src/CodingClient/",
+            "Fwolf\\Common\\Collection\\": "libs/collection/src/Collection/",
             "Fwolf\\Config\\": "libs/config/src/Config/",
             "Fwolf\\Wrapper\\PHPMailer\\": "libs/phpmailer-wrapper/src/PHPMailer/",
             "Fwolf\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/src/PHPUnit/",
@@ -37,6 +38,7 @@
         "psr-4": {
             "FwolfTest\\Base\\Singleton\\": "libs/singleton/tests/Singleton/",
             "FwolfTest\\Client\\Coding\\": "libs/coding-client/tests/CodingClientTest/",
+            "FwolfTest\\Common\\Collection\\": "libs/collection/src/Collection/",
             "FwolfTest\\Config\\": "libs/config/tests/Config/",
             "FwolfTest\\Wrapper\\PHPMailer\\": "libs/phpmailer-wrapper/tests/PHPMailer/",
             "FwolfTest\\Wrapper\\PHPUnit\\": "libs/phpunit-wrapper/tests/PHPUnit/",
