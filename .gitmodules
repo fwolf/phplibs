@@ -19,3 +19,6 @@
 [submodule "libs/config"]
 	path = libs/config
 	url = https://github.com/fwolf/config.php.git
+[submodule "libs/collection"]
+	path = libs/collection
+	url = https://github.com/fwolf/collection.php.git
